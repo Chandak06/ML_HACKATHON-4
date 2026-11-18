@@ -1,0 +1,10 @@
+{"trip_id": "00000000", "top1_accuracy": 0.937674790251698, "http_seconds": 3.15723109999999, "processing_seconds": 3.000715900000614}
+{"trip_id": "00000007", "top1_accuracy": 0.8493353028064993, "http_seconds": 0.5927142000000458, "processing_seconds": 0.5119551999996474}
+{"trip_id": "00000009", "top1_accuracy": 0.8265014299332698, "http_seconds": 0.8783387000003131, "processing_seconds": 0.7362347000007503}
+{"trip_id": "00000040", "top1_accuracy": 0.9021702838063439, "http_seconds": 2.150895699999637, "processing_seconds": 1.6259536999996271}
+{"trip_id": "00000052", "top1_accuracy": 0.9580152671755725, "http_seconds": 2.0469012000003204, "processing_seconds": 0.41700110000056156}
+{"trip_id": "00000056", "top1_accuracy": 0.860788276907529, "http_seconds": 11.272087399999691, "processing_seconds": 9.168034299999817}
+{"trip_id": "00000065", "top1_accuracy": 0.859375, "http_seconds": 1.5749132000000827, "processing_seconds": 1.416806400000496}
+{"trip_id": "00000076", "top1_accuracy": 0.8936742934051144, "http_seconds": 2.62694829999964, "processing_seconds": 2.222873200000322}
+{"trip_id": "00000077", "top1_accuracy": 0.6433137305037074, "http_seconds": 4.785850400000527, "processing_seconds": 3.945485799999915}
+{"trip_id": "00000091", "top1_accuracy": 0.8146453089244852, "http_seconds": 1.9281975000003513, "processing_seconds": 1.7417381000004752}

@@ -1,0 +1,27 @@
+partition             student_test   train evaluator_test
+observations                 19160  208417   not supplied
+invalid_gps                      0       0   not supplied
+missing_values                   0       0   not supplied
+duplicate_timestamps             0       0   not supplied
+reversed_timestamps              0       0   not supplied
+gaps_over_30s                    2     133   not supplied
+alignment_over_80m              20   21128   not supplied
+reference_breaks                 1      13   not supplied
+zero_length_arcs                 6     100   not supplied
+isolated_nodes                   0       0   not supplied
+saved eda_distributions.png
+saved gps_and_road_network.png
+saved feature_distributions.png
+                    model  train_top1  train_macro_f1  train_log_loss  cv_top1  cv_macro_f1  cv_log_loss  test_top1  test_macro_f1  test_log_loss
+0                logistic      0.8355          0.9041          0.1166   0.8350       0.9030       0.1179     0.8366         0.9032         0.1158
+1             naive_bayes      0.8205          0.8176          0.4320   0.8198       0.8169       0.4375     0.8100         0.8159         0.4918
+2           decision_tree      0.8736          0.9255          0.0811   0.8359       0.9047       0.1502     0.8467         0.9086         0.1331
+3           random_forest      0.9074          0.9447          0.0622   0.8448       0.9115       0.0998     0.8461         0.9110         0.0974
+4  hist_gradient_boosting      0.8649          0.9239          0.0838   0.8477       0.9134       0.0970     0.8528         0.9123         0.0949
+5             tuned_model      0.8885          0.9342          0.0690   0.8490       0.9125       0.0991     0.8525         0.9120         0.0957
+saved fit_diagnostics.png
+saved model_selection.png
+saved feature_importance.png
+saved tuning.png
+saved hmm_per_trip.png
+done in 8.9s

@@ -1,0 +1,19 @@
+2026-11-18 12:49:02.022 Uvicorn server started on :::8511
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8511
+  Network URL: http://10.0.8.62:8511
+  External URL: http://1.6.222.154:8511
+
++--------------------- Traceback (most recent call last) ----------------------+
+| D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\.venv\Lib\site-packages\strea |
+| mlit\runtime\scriptrunner\exec_code.py:136 in exec_func_with_error_handling  |
+|                                                                              |
+| D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\.venv\Lib\site-packages\strea |
+| mlit\runtime\scriptrunner\script_runner.py:936 in code_to_exec               |
+|                                                                              |
+| D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\ui\app.py:86 in <module>      |
+|                                                                              |
++------------------------------------------------------------------------------+
+TypeError: route_map() got an unexpected keyword argument 'fit_bounds'

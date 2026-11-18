@@ -1,0 +1,49 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0 -- D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\.venv\Scripts\python.exe
+hypothesis profile 'default'
+rootdir: D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap
+plugins: anyio-4.14.0, hypothesis-6.155.7
+collecting ... collected 27 items
+
+tests/test_completion.py::test_missing_artifact_is_actionable PASSED     [  3%]
+tests/test_completion.py::test_feature_order_mismatch_rejected PASSED    [  7%]
+tests/test_completion.py::test_corrupt_artifact_rejected PASSED          [ 11%]
+tests/test_completion.py::test_degraded_health_and_prediction_error PASSED [ 14%]
+tests/test_completion.py::test_candidate_road_layer_without_references PASSED [ 18%]
+tests/test_completion.py::test_ui_connection_failure PASSED              [ 22%]
+tests/test_core.py::test_loading_real_data PASSED                        [ 25%]
+tests/test_core.py::test_id_security PASSED                              [ 29%]
+tests/test_core.py::test_graph_and_metres PASSED                         [ 33%]
+tests/test_core.py::test_exact_candidates_and_features PASSED            [ 37%]
+tests/test_core.py::test_reference_alignment_chronology PASSED           [ 40%]
+tests/test_core.py::test_missing_candidate_handling PASSED               [ 44%]
+tests/test_core.py::test_projection_endpoints PASSED                     [ 48%]
+tests/test_decoder.py::test_viterbi_and_backtracking PASSED              [ 51%]
+tests/test_decoder.py::test_gaps_and_missing PASSED                      [ 55%]
+tests/test_decoder.py::test_disconnected_fallback PASSED                 [ 59%]
+tests/test_integration.py::test_artifacts_and_group_leakage PASSED       [ 62%]
+tests/test_integration.py::test_inference_without_reference_access PASSED [ 66%]
+tests/test_integration.py::test_fastapi_validation_and_prediction PASSED [ 70%]
+tests/test_integration.py::test_reserved_mode_empty PASSED               [ 74%]
+tests/test_ui_maps.py::test_client_rejects_bind_address_and_reports_degraded_health PASSED [ 77%]
+tests/test_ui_maps.py::test_zoom_and_map_layers PASSED                   [ 81%]
+tests/test_ui_maps.py::test_ui_degraded_backend_message PASSED           [ 85%]
+tests/test_ui_maps.py::test_ui_full_prediction_through_api PASSED        [ 88%]
+tests/test_validation.py::test_malformed_missing_columns PASSED          [ 92%]
+tests/test_validation.py::test_long_segment_not_missed_by_midpoint_index PASSED [ 96%]
+tests/test_validation.py::test_feature_inputs_have_no_reference_dependency PASSED [100%]
+
+============================== warnings summary ===============================
+C:\Users\Harshit Chandak\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\pytest_plugin.py:14
+  C:\Users\Harshit Chandak\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+  The CallSpec2 alias will be removed in pytest 10.
+  Update imports to use CallSpec instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+    from _pytest.python import CallSpec2
+
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 27 passed, 2 warnings in 11.50s =======================

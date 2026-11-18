@@ -1,0 +1,150 @@
+INFO:     Started server process [13016]
+INFO:     Waiting for application startup.
+INFO:     PathSnap model loaded; mode=student_test; available_trips=10
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8010 (Press CTRL+C to quit)
+INFO:     request=0adbc90707 method=GET path=/health status=200 seconds=0.002
+INFO:     127.0.0.1:59511 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=d5f12b50c2 method=POST path=/predict status=422 seconds=0.003
+INFO:     127.0.0.1:59512 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+WARNING:  PREDICT rejected trip=99999999 reason=unknown_trip
+INFO:     request=48634177ff method=POST path=/predict status=404 seconds=0.001
+INFO:     127.0.0.1:59513 - "POST /predict HTTP/1.1" 404 Not Found
+INFO:     request=74ae930a99 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:59514 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=0575860abc method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:64953 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=a57241bb72 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:64954 - "GET /trips HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000000 mode=student_test
+INFO:     PREDICT trip=00000000 mode=student_test observations=2503 route_arcs=282 top1=0.937674790251698 inference_seconds=3.079 total_seconds=3.224
+INFO:     request=99f9391c4e method=POST path=/predict status=200 seconds=3.286
+INFO:     127.0.0.1:64955 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000007 mode=student_test
+INFO:     PREDICT trip=00000007 mode=student_test observations=1354 route_arcs=124 top1=0.8493353028064993 inference_seconds=0.504 total_seconds=0.572
+INFO:     request=9b4082ba96 method=POST path=/predict status=200 seconds=0.582
+INFO:     127.0.0.1:64956 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000009 mode=student_test
+INFO:     PREDICT trip=00000009 mode=student_test observations=1049 route_arcs=516 top1=0.8265014299332698 inference_seconds=0.669 total_seconds=0.780
+INFO:     request=0d264e92c1 method=POST path=/predict status=200 seconds=0.798
+INFO:     127.0.0.1:64957 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000040 mode=student_test
+INFO:     PREDICT trip=00000040 mode=student_test observations=2995 route_arcs=472 top1=0.9021702838063439 inference_seconds=1.563 total_seconds=1.777
+INFO:     request=0a643b44da method=POST path=/predict status=200 seconds=1.803
+INFO:     127.0.0.1:64963 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000052 mode=student_test
+INFO:     PREDICT trip=00000052 mode=student_test observations=262 route_arcs=93 top1=0.9580152671755725 inference_seconds=0.233 total_seconds=0.250
+INFO:     request=fba74de988 method=POST path=/predict status=200 seconds=0.256
+INFO:     127.0.0.1:64964 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000056 mode=student_test
+INFO:     PREDICT trip=00000056 mode=student_test observations=3958 route_arcs=1522 top1=0.860788276907529 inference_seconds=7.116 total_seconds=7.989
+INFO:     request=e5b9671fd6 method=POST path=/predict status=200 seconds=8.034
+INFO:     127.0.0.1:64965 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000065 mode=student_test
+INFO:     PREDICT trip=00000065 mode=student_test observations=768 route_arcs=185 top1=0.859375 inference_seconds=0.686 total_seconds=0.733
+INFO:     request=8b11ed2690 method=POST path=/predict status=200 seconds=0.745
+INFO:     127.0.0.1:60818 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000076 mode=student_test
+INFO:     PREDICT trip=00000076 mode=student_test observations=1486 route_arcs=517 top1=0.8936742934051144 inference_seconds=1.114 total_seconds=1.254
+INFO:     request=4ccdbc8eb5 method=POST path=/predict status=200 seconds=1.278
+INFO:     127.0.0.1:60819 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000077 mode=student_test
+INFO:     PREDICT trip=00000077 mode=student_test observations=3911 route_arcs=1205 top1=0.6433137305037074 inference_seconds=1.587 total_seconds=1.876
+INFO:     request=db71699fd3 method=POST path=/predict status=200 seconds=1.961
+INFO:     127.0.0.1:60820 - "POST /predict HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000091 mode=student_test
+INFO:     PREDICT trip=00000091 mode=student_test observations=874 route_arcs=372 top1=0.8146453089244852 inference_seconds=0.887 total_seconds=0.953
+INFO:     request=960d795af8 method=POST path=/predict status=200 seconds=0.966
+INFO:     127.0.0.1:55608 - "POST /predict HTTP/1.1" 200 OK
+INFO:     request=ad5f270873 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:55613 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=f87a70943f method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:55614 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=146ebc6018 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:55617 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=86c2b69430 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:55618 - "GET /trips HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000000 mode=student_test
+INFO:     PREDICT trip=00000000 mode=student_test observations=2503 route_arcs=282 top1=0.937674790251698 inference_seconds=3.611 total_seconds=4.029
+INFO:     request=899e6b6f53 method=POST path=/predict status=200 seconds=4.117
+INFO:     127.0.0.1:55619 - "POST /predict HTTP/1.1" 200 OK
+INFO:     request=c3b6eeb9ca method=GET path=/health status=200 seconds=0.003
+INFO:     127.0.0.1:51488 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=742fa0a46b method=GET path=/favicon.ico status=404 seconds=0.000
+INFO:     127.0.0.1:51488 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     request=ec4cf3afd9 method=GET path=/trips status=200 seconds=0.002
+INFO:     127.0.0.1:55687 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=1b83d2b2d0 method=GET path=/docs status=200 seconds=0.000
+INFO:     127.0.0.1:55687 - "GET /docs HTTP/1.1" 200 OK
+INFO:     request=fad1b4a5a5 method=GET path=/openapi.json status=200 seconds=0.023
+INFO:     127.0.0.1:55687 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     request=c05dcdf083 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:60179 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=5d0540049d method=GET path=/favicon.ico status=404 seconds=0.000
+INFO:     127.0.0.1:60179 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     request=519196763d method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:60179 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=bc4d725dd1 method=GET path=/docs status=200 seconds=0.000
+INFO:     127.0.0.1:60179 - "GET /docs HTTP/1.1" 200 OK
+INFO:     request=4e9c93e92d method=GET path=/openapi.json status=200 seconds=0.000
+INFO:     127.0.0.1:60179 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     request=42525af781 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:50061 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=3a138cf030 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:50062 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=ba8a2c22f5 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:49677 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=2db805698f method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:49678 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=417ee2d2d1 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:61760 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=890429295d method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:61761 - "GET /trips HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000052 mode=student_test
+INFO:     PREDICT trip=00000052 mode=student_test observations=262 route_arcs=93 top1=0.9580152671755725 inference_seconds=0.248 total_seconds=0.264
+INFO:     request=b7f15cea87 method=POST path=/predict status=200 seconds=0.270
+INFO:     127.0.0.1:61762 - "POST /predict HTTP/1.1" 200 OK
+INFO:     request=a36d2b6311 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:52625 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=793c565adf method=GET path=/favicon.ico status=404 seconds=0.000
+INFO:     127.0.0.1:52625 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     request=c2033e3b09 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:52625 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=2de68dc7a5 method=GET path=/docs status=200 seconds=0.000
+INFO:     127.0.0.1:52625 - "GET /docs HTTP/1.1" 200 OK
+INFO:     request=2bc8b214d7 method=GET path=/openapi.json status=200 seconds=0.000
+INFO:     127.0.0.1:52625 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     request=b38c4bd2ce method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:57543 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=7306615bc1 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:57544 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=b10921e4ac method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:63772 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=62edbd125c method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:63773 - "GET /trips HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000000 mode=student_test
+INFO:     PREDICT trip=00000000 mode=student_test observations=2503 route_arcs=282 top1=0.937674790251698 inference_seconds=1.940 total_seconds=2.098
+INFO:     request=8d71de4c2a method=POST path=/predict status=200 seconds=2.119
+INFO:     127.0.0.1:63774 - "POST /predict HTTP/1.1" 200 OK
+INFO:     request=cc6ac82c14 method=GET path=/health status=200 seconds=0.002
+INFO:     127.0.0.1:60068 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=ab69a3632d method=GET path=/favicon.ico status=404 seconds=0.000
+INFO:     127.0.0.1:60068 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     request=6693582012 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:60068 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=78ad898fdb method=GET path=/docs status=200 seconds=0.000
+INFO:     127.0.0.1:60068 - "GET /docs HTTP/1.1" 200 OK
+INFO:     request=e1a708bdf8 method=GET path=/openapi.json status=200 seconds=0.000
+INFO:     127.0.0.1:60068 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     request=1072148387 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:52138 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=ef73ce15d7 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:52139 - "GET /trips HTTP/1.1" 200 OK
+INFO:     request=47a0a2cb07 method=GET path=/health status=200 seconds=0.001
+INFO:     127.0.0.1:52626 - "GET /health HTTP/1.1" 200 OK
+INFO:     request=b6f59e2906 method=GET path=/trips status=200 seconds=0.001
+INFO:     127.0.0.1:52627 - "GET /trips HTTP/1.1" 200 OK
+INFO:     PREDICT start trip=00000000 mode=student_test
+INFO:     PREDICT trip=00000000 mode=student_test observations=2503 route_arcs=282 top1=0.937674790251698 inference_seconds=1.802 total_seconds=1.980
+INFO:     request=b60bc992ee method=POST path=/predict status=200 seconds=2.006
+INFO:     127.0.0.1:52628 - "POST /predict HTTP/1.1" 200 OK

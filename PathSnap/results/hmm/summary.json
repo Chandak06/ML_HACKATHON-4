@@ -1,0 +1,14 @@
+{
+  "classifier": {
+    "top1_accuracy": 0.8525052192066805,
+    "route_continuity": 0.9201566579634465,
+    "sequence_edit_similarity": 0.581615771214624,
+    "processing_seconds": 23.950334199999816
+  },
+  "hmm": {
+    "top1_accuracy": 0.8319415448851775,
+    "route_continuity": 0.9675718015665796,
+    "sequence_edit_similarity": 0.7159837367842905,
+    "processing_seconds": 23.950334199999816
+  }
+}

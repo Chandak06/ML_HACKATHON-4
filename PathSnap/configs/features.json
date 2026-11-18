@@ -1,0 +1,22 @@
+{
+  "features": [
+    "distance_m",
+    "start_distance_m",
+    "end_distance_m",
+    "length_m",
+    "heading_difference",
+    "heading_valid",
+    "dt_s",
+    "speed_mps",
+    "in_degree",
+    "out_degree",
+    "distance_rank",
+    "projection_fraction",
+    "distance_margin_m",
+    "gps_outlier"
+  ],
+  "candidates": 8,
+  "projection": "local equirectangular WGS84 spherical radius 6371008.8 m; origin median road nodes",
+  "alignment": "monotone route-occurrence DP; geometry and heading; proxy labels",
+  "training_max_alignment_m": 80
+}

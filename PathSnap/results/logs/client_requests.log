@@ -1,0 +1,10 @@
+2026-11-18 15:43:46,340 INFO Started server process [12984]
+2026-11-18 15:43:46,341 INFO Waiting for application startup.
+2026-11-18 15:43:46,768 INFO STARTUP model_loaded=true mode=student_test available_trips=10 log_file=C:\Users\Dell\Downloads\check\PathSnap\results\logs\client_requests.log
+2026-11-18 15:43:46,768 INFO Application startup complete.
+2026-11-18 15:43:46,770 INFO Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-18 15:54:26,948 INFO Shutting down
+2026-11-18 15:54:27,046 INFO Waiting for application shutdown.
+2026-11-18 15:54:27,046 INFO SHUTDOWN mode=student_test
+2026-11-18 15:54:27,046 INFO Application shutdown complete.
+2026-11-18 15:54:27,050 INFO Finished server process [12984]

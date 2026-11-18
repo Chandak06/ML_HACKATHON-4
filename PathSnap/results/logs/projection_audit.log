@@ -1,0 +1,4 @@
+              median_relative_error  max_relative_error
+partition                                              
+student_test               0.000540            0.004876
+train                      0.001167            0.011375

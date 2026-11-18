@@ -1,0 +1,127 @@
+{
+  "models": [
+    {
+      "model": "logistic",
+      "top1": 0.8366388308977035,
+      "macro_f1": 0.9032017545349831,
+      "log_loss": 0.11579567193984985,
+      "matches_saved": true
+    },
+    {
+      "model": "naive_bayes",
+      "top1": 0.8100208768267223,
+      "macro_f1": 0.8159080659463276,
+      "log_loss": 0.4918367266654968,
+      "matches_saved": true
+    },
+    {
+      "model": "decision_tree",
+      "top1": 0.8466597077244259,
+      "macro_f1": 0.9086308226242196,
+      "log_loss": 0.13312540949125073,
+      "matches_saved": true
+    },
+    {
+      "model": "random_forest",
+      "top1": 0.8460855949895616,
+      "macro_f1": 0.9110186433475006,
+      "log_loss": 0.09743524289429559,
+      "matches_saved": true
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "top1": 0.8528183716075156,
+      "macro_f1": 0.9123007033774032,
+      "log_loss": 0.09486978906338678,
+      "matches_saved": true
+    },
+    {
+      "model": "tuned_model",
+      "top1": 0.8525052192066805,
+      "macro_f1": 0.9119897773738987,
+      "log_loss": 0.09569795215630462,
+      "matches_saved": true
+    },
+    {
+      "model": "best_model",
+      "top1": 0.8525052192066805,
+      "macro_f1": 0.9119897773738987,
+      "log_loss": 0.09569795215630462,
+      "matches_saved": true
+    }
+  ],
+  "feature_cache_exact_match": true,
+  "feature_names": [
+    "distance_m",
+    "start_distance_m",
+    "end_distance_m",
+    "length_m",
+    "heading_difference",
+    "heading_valid",
+    "dt_s",
+    "speed_mps",
+    "in_degree",
+    "out_degree",
+    "distance_rank",
+    "projection_fraction",
+    "distance_margin_m",
+    "gps_outlier"
+  ],
+  "tuning_trials": 10,
+  "best_trial": 9,
+  "trip_counts": {
+    "train": 80,
+    "student_test": 10
+  },
+  "evidence_hashes": {
+    "artifacts/best_model.joblib": "e3597e22c33b9f317be456cd575a7b85044e1f1f055131cd3a733e19db116d10",
+    "artifacts/decision_tree.joblib": "4ccc3a69e17b4ff01a38acebc2189735fd4d465f0c2ea5952b73b217e51302d8",
+    "artifacts/hist_gradient_boosting.joblib": "9b5d1ea50e26c262785fffb2470c4edde8f35d6dd8c9894916984f793ca3ac38",
+    "artifacts/logistic.joblib": "ad4c8bd4ebe8bdcb52cd2334f1687559d5e9942cf9f00b9b4a16eec365b28e69",
+    "artifacts/naive_bayes.joblib": "553e0376d703d68bf8a791792969b1d6392ce11ba05c92440eaec67c8dbbc0e8",
+    "artifacts/random_forest.joblib": "9a6abe6ab000aa9698c2b273f2506688e80f509e32bc70c60775d6161e8c904d",
+    "artifacts/tuned_model.joblib": "e3597e22c33b9f317be456cd575a7b85044e1f1f055131cd3a733e19db116d10",
+    "results/models/comparison.csv": "c11f93a750b58050e21c7855de377ace25b2ef47edea63df95d74398b7737970",
+    "results/models/cross_validation.json": "6b31a66d656b1bf8556d5ad4f076bd6b5b699ec4df03767bcf0d398c4e6a4f4b",
+    "results/models/cv_macro_f1.png": "f1b142190acc16595be39bc9799fbb931475d54370fc7f49d20a83552eae5a2d",
+    "results/models/decision_tree.json": "d099d5218561d08d29f35ea6d3cb2dfdfe72327dbf288dd995e2b819baacedc2",
+    "results/models/decision_tree_confusion.png": "57a13e48d6b0f9d4717e34edd490694494968d93c5db0cb06c97a7674c1d8b76",
+    "results/models/hist_gradient_boosting.json": "8b4f36d93639bc034c7435ad697a05859714e3c19a8c8e826401a51a8ec9892b",
+    "results/models/hist_gradient_boosting_confusion.png": "5e715b0b85fd9f0677a718d0eb6f70d11e6898257e997cc81590efac11b67b80",
+    "results/models/logistic.json": "f42a3215da8fcf375cfd235df0edc51299e04bc342845a80ed1207a3cab513b1",
+    "results/models/logistic_confusion.png": "34af57f544e571f69251e8855e7fe0cfa1c5155df5f091f341a3c604417be296",
+    "results/models/log_loss.png": "eade71c926182be17e9b5ecd12fa131f729b48685af9146863139fa02d5f286e",
+    "results/models/macro_f1.png": "877ff23adb5d544a2d9f2e633007b96a76ed56a6d3ae2382e977c39aa13de989",
+    "results/models/naive_bayes.json": "e7d057f8dc81731a08ae19ec97e3ddaa5a82dee66c8a6ef28071ce5a48174f8c",
+    "results/models/naive_bayes_confusion.png": "643435fba8b9a4b7d7c3691fd07df57e65bae73c902be25ddd5d2498ed5be351",
+    "results/models/per_trip.csv": "d146d3c9f4398f18895e89320832a84ca9eba0cecb172d4083f2c89f724e7153",
+    "results/models/random_forest.json": "e4b5405f1370175b42dd8e347e0d44d2a8c2dd6e07a232f245efd1f7aa84908c",
+    "results/models/random_forest_confusion.png": "437fd485f39cf283f2c2d42fb977dc513d4f3dacd9faee21b9b70930e9bdf07a",
+    "results/models/top1_accuracy.png": "67f43026448da8cfde6b4b3290411d962f305f909021b742945d05791b6a15c3",
+    "results/tuning/comparison.csv": "23a9836d1752a9c15504d8da76bd074e6207bd13648283c0abe4dbd282a496af",
+    "results/tuning/per_trip.csv": "5b382ceffd48603475fd2704a64dab0732b9f418abb7a3481aca020773ee70fb",
+    "results/tuning/summary.json": "adc4594ef5cf8f908ed9787fd503d53c3cf4e167050af2fec8d39b18b85bdef8",
+    "results/tuning/trials.csv": "dffb8cd14de8fe65683678a06ad16a40ecc72101179406145dafcec1ab8e1adf",
+    "results/tuning/trial_history.json": "62ce901b5b80ed95edfbf00d23d3c73c90d55a14fee575d243538de021f149a6",
+    "results/hmm/00000000.json": "40c28276fc58352e9380a29d5b0a7167cce17f1b18319bc3cb7f978cf2e20793",
+    "results/hmm/00000007.json": "d796013267242e40d6021114d797928354920e83bc3d282787b482f6178be726",
+    "results/hmm/00000009.json": "fa538ab10727c7ad0c5fdfe225bb2dfc5d5958b8682024c7696a0c4cb5de6c07",
+    "results/hmm/00000040.json": "44558ce2c487c87e3d6f03cfaa5748a65c2e774edae71e49101ab3d11f740d1f",
+    "results/hmm/00000052.json": "05b9ba11fbbc966fffb4106087fad27142f08fb05b5a0de1ae105a926ed79780",
+    "results/hmm/00000056.json": "7404d3870b3c47351202a1b5bbcc80bfe9d7bcb6eeddd6ab1a2d2fd979ec8fd5",
+    "results/hmm/00000065.json": "5ca79ea8e664c9483dbca9e8e44894fb0108b0e1de41eeb147f96be78b967f72",
+    "results/hmm/00000076.json": "9d1a9bfa6d92a6ab2b564c7a0ddd4a786669e0665d2d33021b026152405c66db",
+    "results/hmm/00000077.json": "1ccd42365c76476305ca25495952f13da1380177897cf5837949c77ac5e8415e",
+    "results/hmm/00000091.json": "53df6a6008d2d5ebf5b97acdb1f88ca6005f4b6a4c49d45ef25ba1b5d17a0f3e",
+    "results/hmm/comparison.png": "ad59e9c404710a6c7955c3af71f8ea6dd1e8f05d7fb4bebd757afea6dfff1aab",
+    "results/hmm/per_trip.csv": "44e26317a340165340ac414969abc222232c09bebac58720cea3085884bf7a4f",
+    "results/hmm/summary.json": "25fdf6393025b4c027095bdd2b6ac699c6c8e58ff9caa0aa040d32517fb72d05",
+    "results/eda/exploration.png": "c58e10813a351a543b15a0e07dfd40b0bf1ffd90393d420add59aee83c0d694f",
+    "results/eda/features.csv": "2194d8a0e63647212225b3586bba41cc313cba638559bb30551f31d0bcb7ef93",
+    "results/eda/projection_audit.csv": "7b1d174ae2056016519e74f04889c368ec5c918b175c66c04061624c3cb46b9f",
+    "results/eda/source_manifest.json": "69c8c134d3a1749b6a09a1065e6d4a5e27246fa1c66e688f65d2fa16406a7010",
+    "results/eda/summary.json": "6f658c65032185eb1c16e77228b174beb63ebbf3019b366253c035579ef1faac",
+    "results/eda/trips.csv": "5022a98da442c724a909a29834c6d48eb01dc1df0811be2f1fe3eb11f7cd111c"
+  },
+  "no_retraining": true
+}
