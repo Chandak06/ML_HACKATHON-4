@@ -1,0 +1,27 @@
+.......F..                                                               [100%]
+================================== FAILURES ===================================
+________________________ test_viterbi_and_backtracking ________________________
+
+    def test_viterbi_and_backtracking():
+        t,g,gps=fixture(); ids,d,f=candidates(g,gps,t.valid,k=4)
+        p=np.exp(-d/10)
+        pred,breaks=decode(t,g,gps,ids,f,p)
+>       assert pred.tolist()==[0,0,1,2]
+E       assert [3, 0, 1, 2] == [0, 0, 1, 2]
+E         
+E         At index 0 diff: 3 != 0
+E         Use -v to get more diff
+
+tests\test_decoder.py:9: AssertionError
+============================== warnings summary ===============================
+C:\Users\Harshit Chandak\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\pytest_plugin.py:14
+  C:\Users\Harshit Chandak\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+  The CallSpec2 alias will be removed in pytest 10.
+  Update imports to use CallSpec instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+    from _pytest.python import CallSpec2
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_decoder.py::test_viterbi_and_backtracking - assert [3, 0, 1...
+1 failed, 9 passed, 1 warning in 1.70s

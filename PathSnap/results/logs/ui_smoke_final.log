@@ -1,0 +1,2 @@
+2026-11-18 10:40:19.126 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[{'label': 'Observation Top-1 accuracy', 'value': '93.77%'}, {'label': 'Route continuity', 'value': '98.64%'}, {'label': 'Processing time', 'value': '1.75 s'}]

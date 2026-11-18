@@ -1,0 +1,10 @@
+{"trip_id": "00000000", "file": "results/maps/student_test/00000000.html", "observations": 2503, "route_arcs": 282, "corridor_segments": 987, "matches_saved_hmm_predictions": true, "seconds": 4.187789699999485}
+{"trip_id": "00000007", "file": "results/maps/student_test/00000007.html", "observations": 1354, "route_arcs": 124, "corridor_segments": 421, "matches_saved_hmm_predictions": true, "seconds": 0.9266010000010283}
+{"trip_id": "00000009", "file": "results/maps/student_test/00000009.html", "observations": 1049, "route_arcs": 516, "corridor_segments": 1391, "matches_saved_hmm_predictions": true, "seconds": 1.5364859999990585}
+{"trip_id": "00000040", "file": "results/maps/student_test/00000040.html", "observations": 2995, "route_arcs": 472, "corridor_segments": 1303, "matches_saved_hmm_predictions": true, "seconds": 2.822009400000752}
+{"trip_id": "00000052", "file": "results/maps/student_test/00000052.html", "observations": 262, "route_arcs": 93, "corridor_segments": 353, "matches_saved_hmm_predictions": true, "seconds": 0.4377260000001115}
+{"trip_id": "00000056", "file": "results/maps/student_test/00000056.html", "observations": 3958, "route_arcs": 1522, "corridor_segments": 2162, "matches_saved_hmm_predictions": true, "seconds": 9.5825846000007}
+{"trip_id": "00000065", "file": "results/maps/student_test/00000065.html", "observations": 768, "route_arcs": 185, "corridor_segments": 698, "matches_saved_hmm_predictions": true, "seconds": 1.190615000001344}
+{"trip_id": "00000076", "file": "results/maps/student_test/00000076.html", "observations": 1486, "route_arcs": 517, "corridor_segments": 1754, "matches_saved_hmm_predictions": true, "seconds": 2.0990609000000404}
+{"trip_id": "00000077", "file": "results/maps/student_test/00000077.html", "observations": 3911, "route_arcs": 1205, "corridor_segments": 1184, "matches_saved_hmm_predictions": true, "seconds": 3.3238455999999132}
+{"trip_id": "00000091", "file": "results/maps/student_test/00000091.html", "observations": 874, "route_arcs": 372, "corridor_segments": 805, "matches_saved_hmm_predictions": true, "seconds": 1.5763070000011794}

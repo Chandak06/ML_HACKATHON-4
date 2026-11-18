@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\src\build_features.py", line 6, in <module>
+    from .preprocessing import project
+  File "D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\src\preprocessing.py", line 2, in <module>
+    from pyproj import CRS, Transformer
+  File "D:\SEMESTERS\SEM5_2025\2.ML\Hackathon\PathSnap\.venv\Lib\site-packages\pyproj\__init__.py", line 53, in <module>
+    from pyproj._version import (  # noqa: F401 pylint: disable=unused-import
+ImportError: DLL load failed while importing _version: An Application Control policy has blocked this file.
