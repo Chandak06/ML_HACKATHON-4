@@ -1,0 +1,16 @@
+{
+  "ui_url": "http://127.0.0.1:8511",
+  "trip_id": "00000000",
+  "ui_map": {
+    "leaflet": true,
+    "canvases": 1,
+    "tiles": 5,
+    "layerText": " openstreetmap Road network GPS observations Predicted route"
+  },
+  "offline_map": {
+    "tiles": 42,
+    "layerText": " openstreetmap Road network GPS observations Reference route (offline only) Predicted route"
+  },
+  "page_errors": [],
+  "cross_laptop_verified": false
+}

@@ -1,0 +1,35 @@
+{
+  "model": "hist_gradient_boosting",
+  "variant": "tuned",
+  "parameters": {
+    "max_iter": 171,
+    "max_leaf_nodes": 44,
+    "learning_rate": 0.11931431512320455,
+    "l2_regularization": 0.017794170459259247,
+    "early_stopping": false,
+    "random_state": 42,
+    "min_samples_leaf": 22
+  },
+  "features": [
+    "distance_m",
+    "start_distance_m",
+    "end_distance_m",
+    "length_m",
+    "heading_difference",
+    "heading_valid",
+    "dt_s",
+    "speed_mps",
+    "in_degree",
+    "out_degree",
+    "distance_rank",
+    "projection_fraction",
+    "distance_margin_m",
+    "gps_outlier"
+  ],
+  "alignment_metrics_are_proxies": true,
+  "hmm": {
+    "beta_m": 30.0,
+    "max_gap_s": 30.0,
+    "max_path_m": 3000.0
+  }
+}

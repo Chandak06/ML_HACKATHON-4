@@ -1,0 +1,20 @@
+{
+  "ui": "Streamlit AppTest",
+  "real_http": "http://127.0.0.1:8011",
+  "trip": "00000000",
+  "metrics": [
+    {
+      "label": "Observation Top-1 accuracy",
+      "value": "93.77%"
+    },
+    {
+      "label": "Route continuity",
+      "value": "98.64%"
+    },
+    {
+      "label": "Processing time",
+      "value": "2.95 s"
+    }
+  ],
+  "reference_keys_present": false
+}

@@ -1,0 +1,51 @@
+# PathSnap / ML_HACKATHON-4 - Git ignore rules
+
+# Python virtual environments
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+
+# Runtime logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+PathSnap/results/logs/
+PathSnap/results/completion_audit/backups/
+PathSnap/results/completion_audit/backups_2/
+
+# Do NOT ignore source code, tests, configs, reports, or trained models here.
+# This file does not remove files that Git already tracks.

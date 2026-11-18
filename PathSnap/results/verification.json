@@ -1,0 +1,33 @@
+{
+  "required_files_verified": [
+    "src/build_features.py",
+    "src/train_models.py",
+    "src/tune_model.py",
+    "src/hmm_viterbi.py",
+    "app/api.py",
+    "ui/app.py",
+    "README.md",
+    "requirements.txt",
+    "artifacts/best_model.joblib",
+    "configs/deployment.json",
+    "results/models/comparison.csv",
+    "results/tuning/trials.csv",
+    "results/hmm/summary.json",
+    "results/logs/http_smoke.json",
+    "results/logs/ui_smoke.json"
+  ],
+  "original_inputs": {
+    "Student folder.zip": {
+      "sha256": "4804b0399d1d56f4844b9c74e2f998aae0a281fb5947a1f47ad1bd013214d248",
+      "verified_original_files": 360
+    },
+    "PathSnap_student_materials.zip": {
+      "sha256": "db368793f68c76baa8eaa30d783d376df50841287c29c43f6911feb98cab4367",
+      "verified_original_files": 5
+    }
+  },
+  "evaluator_data_used": false,
+  "cross_laptop_verified": false,
+  "github_operations_performed": false,
+  "technical_report_created": false
+}

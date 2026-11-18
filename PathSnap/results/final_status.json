@@ -1,0 +1,22 @@
+{
+  "updated": "2026-11-18",
+  "submitted": false,
+  "git_operations_performed": false,
+  "deliverable_1_local": "implemented and verified on one machine",
+  "verified": {
+    "tests": "27 passed (results/logs/tests_final.log)",
+    "artifacts": "7 joblib models reload and reproduce saved metrics (scripts/verify_existing.py)",
+    "feature_parity": "inference features identical to training cache",
+    "tuning": "10 completed Optuna TPE trials, grouped CV",
+    "http": "10/10 student trips via uvicorn app.api:app (results/logs/http_smoke_final.json, api_server_final.log)",
+    "ui": "Streamlit UI against live API (results/logs/ui_check_final.json) + headless-Edge screenshots (results/report/screenshots/)",
+    "maps": "10 Folium maps, live predictions equal saved HMM outputs (results/maps/student_test/index.json)"
+  },
+  "deliverable_2": "docs/report/PathSnap_Technical_Report.pdf generated from saved results; needs team review, team details, two-laptop screenshots",
+  "pending": [
+    "Physical two-laptop Wi-Fi/firewall demonstration and its screenshots",
+    "Reserved evaluator trips (not supplied)",
+    "Team review of code/report and AI-use disclosure",
+    "Manual GitHub publication and submission"
+  ]
+}

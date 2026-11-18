@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "folds": 3,
+  "max_observations_per_training_trip": 400,
+  "training_observations": 31903,
+  "training_candidate_rows": 255224,
+  "training_trips": 80,
+  "test_trips": 10,
+  "features": [
+    "distance_m",
+    "start_distance_m",
+    "end_distance_m",
+    "length_m",
+    "heading_difference",
+    "heading_valid",
+    "dt_s",
+    "speed_mps",
+    "in_degree",
+    "out_degree",
+    "distance_rank",
+    "projection_fraction",
+    "distance_margin_m",
+    "gps_outlier"
+  ],
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "optuna": "5.1.0"
+  }
+}
