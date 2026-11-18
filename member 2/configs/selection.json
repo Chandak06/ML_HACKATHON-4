@@ -1,0 +1,8 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "rule": "CV Top-1 within 0.005 of maximum, then lowest CV log loss, then inference time",
+  "eligible_models": [
+    "random_forest",
+    "hist_gradient_boosting"
+  ]
+}
